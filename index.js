@@ -1,5 +1,3 @@
-// // add item in cart section
-
 let initialPrice = 0;
 let discountParcentage = 0.2;
 let totalDiscount = 0;
@@ -48,7 +46,7 @@ function setTextElementByValue(elementId, newValue) {
 
 // for relad page
 document.getElementById("relad").addEventListener("click", () => {
-  location.reload(true);
+  window.location.href = "login.html";
 });
 
 //Main function
